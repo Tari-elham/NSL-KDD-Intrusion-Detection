@@ -7,7 +7,15 @@ This project presents a binary intrusion detection system using the NSL-KDD data
 - Normal
 - Attack
 
-The project includes data preprocessing, feature engineering, model training, performance evaluation, and result visualization.
+## Project Workflow
+
+1. Load the NSL-KDD dataset
+2. Perform data preprocessing
+3. Encode categorical features
+4. Normalize numerical features
+5. Train machine learning models
+6. Evaluate performance
+7. Compare the models
 
 ---
 
@@ -26,12 +34,12 @@ Dataset files:
 
 The following preprocessing steps were applied:
 
-- Assigned column names
-- Checked missing values
-- Converted attack labels into binary classes
-- Instructions for categorical features
-- Feature alignment between training and testing datasets
-- Standardization using StandardScaler
+1. Assigned column names
+2. Checked missing values
+3. Converted attack labels into binary classes
+4.  Instructions for categorical features
+5. Feature alignment between training and testing datasets
+6.  Standardization using StandardScaler
 
 ---
 
@@ -82,6 +90,13 @@ NSL-KDD-Intrusion-Detection
 ```
 
 ---
+## Model Performance
+
+Model	                Accuracy	Precision              Recall                   F1-score	    Training Time (s)
+Logistic Regression	0.753282	0.917154	       0.622847	                0.741879	    3.692852
+Decision Tree   	0.785442	0.964776	       0.646692	                0.774341	    2.196536
+SVM	                0.786950	0.925408	       0.680589	                0.784338	    211.924959
+
 
 ## Author
 
