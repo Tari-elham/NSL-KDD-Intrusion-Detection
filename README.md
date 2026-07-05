@@ -63,6 +63,8 @@ The models were evaluated using:
 - F1-score
 - Confusion Matrix
 - Training Time
+
+
 They are showed in a table!
 
 ---
@@ -118,7 +120,7 @@ SVM	                0.786950	0.925408	       0.680589	                0.784338	 
 
 ### Decision Tree Confusion Matrix
 
-!Decision Tree Confusion Matrix](images/DT_confusion_matrix.png)
+![Decision Tree Confusion Matrix](images/DT_confusion_matrix.png)
 
 ### LR Confusion Matrix
 
