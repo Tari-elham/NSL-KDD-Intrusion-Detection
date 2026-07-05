@@ -1,4 +1,4 @@
-# NSL-KDD Intrusion Detection using Machine Learning
+# Project name: NSL-KDD Intrusion Detection using Machine Learning
 
 ## Overview
 
@@ -37,9 +37,9 @@ The following preprocessing steps were applied:
 1. Assigned column names
 2. Checked missing values
 3. Converted attack labels into binary classes
-4.  Instructions for categorical features
+4. Instructions for categorical features
 5. Feature alignment between training and testing datasets
-6.  Standardization using StandardScaler
+6. Standardization using StandardScaler
 
 ---
 
@@ -63,6 +63,7 @@ The models were evaluated using:
 - F1-score
 - Confusion Matrix
 - Training Time
+They are showed in a table!
 
 ---
 
@@ -114,6 +115,16 @@ SVM	                0.786950	0.925408	       0.680589	                0.784338	 
 ### SVM Confusion Matrix
 
 ![SVM Confusion Matrix](images/svm_confusion_matrix.png)
+
+### Decision Tree Confusion Matrix
+
+!Decision Tree Confusion Matrix](images/DT_confusion_matrix.png)
+
+### LR Confusion Matrix
+
+![LR Confusion Matrix](images/LR_confusion_matrix.png)
+
+
 
 ## Author
 
