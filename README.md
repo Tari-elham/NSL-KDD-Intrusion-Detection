@@ -97,6 +97,23 @@ Logistic Regression	0.753282	0.917154	       0.622847	                0.741879	 
 Decision Tree   	0.785442	0.964776	       0.646692	                0.774341	    2.196536
 SVM	                0.786950	0.925408	       0.680589	                0.784338	    211.924959
 
+## Visual Results
+
+### Class Distribution
+
+![Class Distribution](images/class_distribution.png)
+
+---
+
+### Accuracy Comparison
+
+![Accuracy Comparison](images/accuracy_comparison.png)
+
+---
+
+### SVM Confusion Matrix
+
+![SVM Confusion Matrix](images/svm_confusion_matrix.png)
 
 ## Author
 
